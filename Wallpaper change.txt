@@ -21,6 +21,7 @@ STRING cd %userprofile%\Desktop\
 ENTER
 DELAY 100
 STRING QUACKED.jpg
+REM read the picture by the console
 DELAY 100
 ENTER
 DELAY 100
@@ -61,12 +62,15 @@ DELAY 100
 DOWNARROW
 DELAY 100
 ENTER
+REM Set the picture to Wallpaper
 DELAY 100
 ALT F4
+REM Close 
 DELAY 100
 ALT F4
 DELAY 100
 CTRL F4
+REM close the tab with the picture
 DELAY 100
 GUI r
 DELAY 100
@@ -74,9 +78,10 @@ STRING cmd
 ENTER
 DELAY 100
 STRING del %userprofile%\Desktop\QUACKED.jpg
+REM Delete the picture
 ENTER
 ALT F4
-REM sets the background, and closes.
+REM close the console
 
 
 
